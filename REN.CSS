@@ -1,0 +1,263 @@
+*{
+    margin: 0;
+    
+    padding: 0;
+    font-family:"POPPINS", sans-serif ;
+}
+.main_box{
+    
+    height: 100vh;
+    background: url(web\ yellow\ background\ [Recovered]-01-01.png);
+    
+
+}
+.btn_one i{
+    columns: white;
+    font-size: 30px;
+    font-weight: 700;
+    position: absolute;
+    left: 14px;
+    line-height: 60px;
+    cursor: pointer;
+    
+}
+.sidebar_menu{
+    position: fixed;
+    left: -350px;
+    background-color: black;
+  
+    height: 100vh;
+    width: 320px;
+
+}
+
+.sidebar_menu .logo{
+    position: absolute;
+    width: 100%;
+    line-height: 60px;
+
+}
+.sidebar_menu .logo a{
+    position: absolute;
+    font-size: 30px;
+    font-weight: 600;
+    text-decoration: none;
+    color:white ;
+    left: 50px;
+}
+.sidebar_menu .btn_two i{
+    color: grey;
+    left: 275px;
+    font-size: 25px;
+    line-height: 60px;
+    position: absolute;
+    cursor: pointer;
+
+
+}
+.sidebar_menu .menu{
+    position: absolute;
+    width: 100%;
+    top: 80px;
+}
+.sidebar_menu .menu li{
+    color: white;
+    margin-top: 6px;
+    padding: 14px 20px;
+}
+.sidebar_menu .menu i,a{
+    color: white;
+    text-decoration: none;
+    font-size: 22px;
+}
+.sidebar_menu .menu i{
+    padding: 6px;
+}
+.sidebar_menu .social_media{
+    position: absolute;
+    bottom: 20px;
+    left: 25%;
+    color: rgb(7, 2, 17);
+    opacity: 0.7;
+
+}
+.sidebar_menu .social_media i{
+    color: white;
+    padding: 4px;
+    opacity: 0.5;
+}
+#check{
+    display: none;
+}
+.sidebar_menu .menu li:hover{
+    box-shadow: 0 0 6px rgba(0,0,0,0.5);
+    border-style: solid;
+    border-color: rgb(160, 121, 146);
+    border-width: 4px;
+
+}
+.btn_one i:hover{
+    font-size: 40px;
+}
+.btn_two i:hover{
+    font-size:40px;
+}
+.sidebar_menu .social_media i:hover{
+    opacity: 1.5;
+    font-size: 35px;
+}
+#check:checked ~ .sidebar_menu{
+    left: 0;
+
+}
+.header-content
+{
+    position: absolute;
+    left: 30%;
+    height: 90px;
+    top: 15px;
+    
+    font-size: 35PX;
+    font-weight: 700;
+    border-style: solid;
+    border-width: 6px;
+    padding: 6px;
+    border-radius: 15px;
+   
+    
+}
+.photo-ren{
+    height: 470px;
+    width: 400px;
+    
+    position: absolute;
+    top: 25%;
+    left: 30%;
+    background: url(f9mfibc1.png);
+    background-size: cover;}
+.CELEBRITIES h2{
+    width: 220px;
+    margin: 10px;
+    text-align: left;
+    left: 8px;
+    padding: 10px;
+    border-style: solid;
+    border-width: 4px;
+    border-radius: 20px;
+    font-size: 40px;
+    background-color: aqua;
+}
+.celeb{
+    /* background-color: blanchedalmond; */
+}
+.celeb .CELEBRITIES img{
+    
+    padding: 20px;
+    width: 280px;
+    height: 280px;
+    margin: 35px;
+}
+.celeb .CELEBRITIES img:hover{
+    box-shadow: 0 0 8px rgba(0,0,0,0.5);
+    border-style: solid;
+    border-color: rgb(160, 121, 146);
+    border-width: 6px;
+    
+}
+.celeb .images{
+    border-style: solid;
+    padding: 2px;
+    border-width: 6px;
+    margin: 10px;
+
+}
+.Gallery h2{
+    width: 220px;
+    background-color: aqua;
+    text-align: left;
+    left: 8px;
+    padding: 5px;
+    border-style: solid;
+    border-width: 4px;
+    border-radius: 20px;
+    font-size: 40px;
+   
+}
+.Gallery .g-img img{border-style: solid;
+    padding: 45px;
+    width: 280px;
+    height: 280px;
+    margin: 15px;
+
+}
+.Gallery .g-img img:hover{
+    box-shadow: 0 0 8px rgba(0,0,0,0.5);
+    border-style: solid;
+    border-color: rgb(160, 121, 146);
+    border-width: 6px;
+}
+.Gallery div{
+    border-style: solid;
+    padding: 2px;
+    border-width: 6px;
+      
+}
+.Gallery{
+    /* background-color: lightpink; */
+}
+.background{
+    background: linear-gradient(to right,rgb(225, 225, 132),rgb(114, 241, 241));
+
+}
+footer{
+    background-color: black;
+}
+footer img{
+    height: 250px;
+    width: 250px;
+    padding: 35px;
+
+}
+.footer #logo{
+    right:4px;
+}
+.contact{
+    float: right;
+    
+   
+    
+
+    width: 300px;
+    
+}
+.contact p{
+    color: white;
+
+}
+.contact a{
+    color: rgb(223, 159, 201);
+    text-decoration: underline;
+}
+.contact h3{
+    color: white;
+    font-size: 40px;
+    border-style: dotted;
+    width: 230px;
+    padding: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
